@@ -111,7 +111,7 @@ def chk(ccn, mm, yyyy, cvc):
         context.close()
         browser.close()
         context.tracing.stop(path="trace.zip")
-        time.sleep(2)
+        time.sleep(10)
 
 def start():
     while True:  # Bucle infinito
